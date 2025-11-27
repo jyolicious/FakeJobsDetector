@@ -1,0 +1,84 @@
+# ----------------------------
+# PYTHON / FLASK BACKEND
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Model files
+models/*.joblib
+models/*.pkl
+models/*.sav
+models/*.h5
+models/*.pt
+
+# Data files (ignore ALL CSVs everywhere)
+*.csv
+*.tsv
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# ----------------------------
+# NODE / REACT FRONTEND
+# ----------------------------
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build folder
+frontend/dist/
+frontend/build/
+
+# Local environment files
+frontend/.env
+frontend/.env.*
+
+
+# ----------------------------
+# VITE / REACT CACHE
+# ----------------------------
+*.local
+.vite/
+dist/
+*.cache/
+
+
+# ----------------------------
+# VS CODE / EDITORS
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# ----------------------------
+# BACKUP / TEMP FILES
+# ----------------------------
+*.tmp
+*.temp
+*.bak
+*.orig
+*.DS_Store
+Thumbs.db
+
+
+# ----------------------------
+# LOG FILES
+# ----------------------------
+*.log
+logs/
