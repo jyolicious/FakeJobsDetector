@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* GLOBAL SCALE (balanced) */
+html {
+  font-size: 95%;   /* Previously 90%, this is perfect middle */
+}
+
+/* Layout spacing */
+.container {
+  padding: 30px !important;
+}
+
+.text-input {
+  min-height: 180px !important;      /* Previously 150 / 200 */
+  padding: 20px !important;
+  font-size: 1rem !important;
+}
+
+.number-input {
+  width: 140px !important;
+  padding: 15px 20px !important;
+  font-size: 1.05rem !important;
+}
+
+.scan-button {
+  padding: 20px !important;
+  font-size: 1.1rem !important;
+}
+
+/* Titles */
+.main-title {
+  font-size: 2.6em !important; /* middle between original & compact */
+}
+
+.subtitle {
+  font-size: 1.15em !important;
+}
+
+.logo-mark {
+  width: 70px !important;
+  height: 70px !important;
+  font-size: 2.1em !important;
+}
+
+/* Results card size */
+.score-display {
+  padding: 40px 25px !important;
+}
+
+.score-value {
+  font-size: 5em !important;   /* Previously 7em → 4em */
+}
+
+.results-title {
+  font-size: 1.6em !important;
+}
+
+/* Fraud / Metadata cards */
+.analysis-card {
+  padding: 28px !important;
+}
+
+.data-item {
+  padding: 12px 15px !important;
+  font-size: 1rem !important;
+}
+
+.item-name {
+  font-size: 1rem !important;
+}
+
+.item-value {
+  font-size: 1.1rem !important;
+}
+
+/* Labels */
+.form-label {
+  font-size: 1rem !important;
+}
+
+.hint-text {
+  font-size: 0.9rem !important;
+}
